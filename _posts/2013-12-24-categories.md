@@ -1,10 +1,10 @@
 ---
-title: Categories
-date: 2013-12-24 23:30:09
+title: 카테고리
+date: 2018-08-25 14:20:09
 categories:
-- Foo
-- Bar
+- 한구어
+- 日本語
 - Baz
 ---
 
-This post contains 3 categories. Make sure your theme can display all of the categories.
+한글 표시 테스트.
