@@ -6,7 +6,7 @@
 # Site
 title: Babelturo
 subtitle: 
-description:
+description: 문과라서 죄송합니다.
 author: Babelturo
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -90,7 +90,7 @@ rss:
 #since: 2018
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: pen
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
