@@ -3,4 +3,4 @@ layout: page
 type: about
 ---
 
-Building...
+#### 준비중입니다.
