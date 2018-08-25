@@ -2,7 +2,7 @@
 layout: post
 title: "한일 대조언어학"
 date: 2018-08-25
-categories: 대조언어학
+categories: 언어학
 tags: 日本語, 한국어
 ---
 
