@@ -6,96 +6,13 @@ categories: 언어학
 tags: 日本語, 한국어
 ---
 
-One of the rewards of switching my website to [Jekyll](http://jekyllrb.com/) is the
-ability to support **MathJax**, which means I can write LaTeX-like equations that get
-nicely displayed in a web browser, like this one $$\\( \sqrt{\frac{n!}{k!(n-k)!}} \\) orthis one \\( x^2 + y^2 = r^2 \\).$$
+### 품사
+#### 품사분류
+단어를 문법적 성질의 공통성에 따라 분류한 것을 '품사'라고 한다. 품사는 단어의 형태, 기능, 의미의 세 가지 기준에 따라 분류된다. **의미에 의거한 분류**는 직관적이며 알기 쉬운 반면 자의적인 측면이 강하다. 학회에서는 발표자가 '이 단어는 이러이러한 의미를 가지고 있으니까 이렇게 분류 가능함'이라고 하면 청중이 '나는 그렇게 생각 안함, 너님만 그런거 아님?'이라고 반문하는 경우를 간혹 볼 수 있다. 따라서 단어가 가지는 의미를 염두에 두고 분류할 때는 충분히 납득 가능할 만한 증거를 제시하여야 할 것이다. 한편 **형태에 의거한 분류**는 누가 분류하더라도 똑같은 결과가 나오기 때문에 객관적이라 할 수 있겠다. 하지만 형태가 변화하지 않는 단어는 분류하기가 애매하다. 
 
-<!--more-->
+##### 일본어의 품사 분류
 
-<img class="centered" src="https://www.mathjax.org/badge/mj-logo.svg" />
+| 自立語 | 体言 | 用言 | 連体詞 | 副詞 | 接続詞 | 感嘆詞 |
+|--------|------|------|--------|------|--------|--------|
 
-### What's MathJax?
-
-If you check MathJax website [(www.mathjax.org)](http://www.mathjax.org/) you'll see
-that it *is an open source JavaScript display engine for mathematics that works in all
-browsers*.
-
-
-### How to implement MathJax with Jekyll
-
-I followed the instructions described by Dason Kurkiewicz for
-[using Jekyll and Mathjax](http://dasonk.github.io/blog/2012/10/09/Using-Jekyll-and-Mathjax/).
-
-Here are some important details. I had to modify the Ruby library for Markdown in
-my ```_config.yml``` file. Now I'm using redcarpet so the corresponding line in the
-configuration file is: ```markdown: redcarpet```
-
-To load the MathJax javascript, I added the following lines in my layout ```page.html```
-(located in my folder ```_layouts```)
-
-{% highlight r %}
-<script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-{% endhighlight %}
-
-Of course you can choose a different file location in your jekyll layouts.
-
-
-### A Couple of Examples
-
-Here's a short list of examples. To know more about the details behind MathJax, you can
-always checked the provided documentation available at
-[http://docs.mathjax.org/en/latest/](http://docs.mathjax.org/en/latest/)
-
-I'm assuming you are familiar with LaTeX. However, you should know that MathJax does not
-have the exactly same behavior as LaTeX. By default, the **tex2jax** preprocessor defines the
-LaTeX math delimiters, which are ```\\(...\\)``` for in-line math, and ```\\[...\\]``` for
-displayed equations. It also defines the TeX delimiters ```$$...$$``` for displayed
-equations, but it does not define ```$...$``` as in-line math delimiters. Fortunately,
-you can change these predefined specifications if you want to do so.
-
-Let's try a first example. Here's a dummy equation:
-
-$$a^2 + b^2 = c^2$$
-
-How do you write such expression? Very simple: using **double dollar** signs
-
-{% highlight r %}
-$$a^2 + b^2 = c^2$$
-{% endhighlight %}
-
-To display inline math use ```\\( ... \\)``` like this ```\\( sin(x^2) \\)``` which gets
-rendered as \\( sin(x^2) \\)
-
-
-Here's another example using type ```\mathsf```
-
-{% highlight r %}
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-{% endhighlight %}
-
-which gets displayed as
-
-$$ \mathsf{Data = PCs} \times \mathsf{Loadings} $$
-
-Or even better:
-
-{% highlight r %}
-\\[ \mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}} \\]
-{% endhighlight %}
-
-is displayed as
-
-\\[ \mathbf{X} = \mathbf{Z} \mathbf{P^\mathsf{T}} \\]
-
-If you want to use subscripts like this \\( \mathbf{X}\_{n,p} \\) you need to scape the
-underscores with a backslash like so ``` \mathbf{X}\_{n,p} ```:
-
-{% highlight r %}
-$$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
-{% endhighlight %}
-
-will be displayed as
-
-\\[ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} \\]
+##### 한국어의 품사 분류
