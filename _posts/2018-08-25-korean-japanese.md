@@ -10,8 +10,7 @@ tags: 日本語, 한국어
 
 이하의 내용은 다음의 책을 참고로 작성하였습니다.
 
-> [油谷幸利(2005)『日韓対照言語学入門』白帝社.](https://www.amazon.co.jp/%E6%97%A5%E9%9F%93%E5%AF%BE%E7%85%A7%E8%A8%80%E8%AA%9E%E5%AD%A6%E5%85%A5%E9%96%80-%E6%B2%B9%E8%B0%B7-%E5%B9%B8%E5%88%A9/dp/4891747331/ref=sr_1_1?ie=UTF8&qid=1536651447&sr=8-1&keywords=%E6%97%A5%E9%9F%93%E5%AF%BE%E7%85%A7%E8%A8%80%E8%AA%9E%E5%AD%A6
-)
+> [油谷幸利(2005)『日韓対照言語学入門』白帝社.](https://www.amazon.co.jp/%E6%97%A5%E9%9F%93%E5%AF%BE%E7%85%A7%E8%A8%80%E8%AA%9E%E5%AD%A6%E5%85%A5%E9%96%80-%E6%B2%B9%E8%B0%B7-%E5%B9%B8%E5%88%A9/dp/4891747331/ref=sr_1_1?ie=UTF8&qid=1536651447&sr=8-1&keywords=%E6%97%A5%E9%9F%93%E5%AF%BE%E7%85%A7%E8%A8%80%E8%AA%9E%E5%AD%A6){:target="_blank"}
 
 ### 품사
 #### 품사분류
