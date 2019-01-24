@@ -1,7 +1,7 @@
 ---
 title: 일본어의 부사, 부사절 계층구조와 어순
 date: 2018-08-30 14:31:09
-tags : 日本語 ADVERB 'ADVERBIAL CLAUSE'
+tags : 日本語 ADVERB ADVERBIAL_CLAUSE
 categories:
 - 언어학
 - 오늘의 논문
