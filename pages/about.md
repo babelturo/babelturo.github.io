@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/army.PNG"
+feature-img: "http://babelturo.github.io/assets/img/pexels/army.PNG"
 tags: [About, Archive]
 ---
 
