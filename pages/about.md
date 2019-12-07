@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/circle_of_life.jpg"
+feature-img: "assets/img/pexels/circle_of_life.png"
 tags: [About, Archive]
 ---
 
