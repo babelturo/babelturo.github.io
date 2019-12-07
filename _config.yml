@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://babelturo.github.io"
+url: "https://babelturo.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 title: 괴짜 아님 덕후                                    # site's title
