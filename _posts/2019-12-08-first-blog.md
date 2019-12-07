@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Color Post
-tags: [Test, Color, Markdown]
+title: テスト
+tags: [Markdown]
 color: brown
-author: sylhare
+author: Seo
 excerpt_separator: <!--more-->
 ---
 
-# What a colorful post!
+# 새 글 작성.
 
-This is an idea that came from [xukimseven/HardCandy-Jekyll](https://github.com/xukimseven/HardCandy-Jekyll) 
-looking at this cheerful and colorful them, I wanted to enable something similar for mine.
+이것은 본문.
+
+これは日本語。
 
 You can go fork and star hers too! 😉
 
