@@ -1,17 +1,14 @@
 ---
-layout: page
+layout: default
 ---
 
-{{ content }}
+<div class="home">
 
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
-    {%- comment -%}
-      Add paginator.posts loop if jekyll-paginate plugin is enabled
-      and page.paginate == true
-    {%- endcomment -%}
-    {% include posts-paginated.html %}
-  {%- else -%}
-    {% include posts-limit.html %}
-  {%- endif -%}
+  <div id="main" class="call-out"
+       style="background-image: url('{{ site.header_feature_image | relative_url }}')">
+    <h1> {{ site.header_text | default: "Change <code>header_text</code> in <code>_config.yml</code>"}} </h1>
+  </div>
+
+  {% include blog.html %}
+    
 </div>
