@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Gallery
-subtitle: From the pexels folder
-permalink: /gallery/
-gallery_path: "assets/img/pexels"
-tags: [Gallery, Photo]
+title: 외국어 포스팅
+subtitle: 나에게는 모어가, 당신에게는 외국어가 될 수 있습니다.
+permalink: /foreign/
+feature-img: "assets/img/pexels/computer.jpeg"
+tags: [Gallery, Photo]assets/img/pexels folder. 
 ---
 
+외국어로 하는 포스팅.
+
 This is a photo gallery made from the static files in the `assets/img/pexels` folder. 
-I wanted to create automatically a simple gallery from a folder without having to create a markdown page as you would for the portfolio.
-
-
-{% include gallery.html gallery_path=page.gallery_path %}
