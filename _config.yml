@@ -4,13 +4,13 @@ url: "https://babelturo.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 title: 괴짜 아님 덕후                                    # site's title
-description: "Growing up, we were all insecure nerds in our own way."      # used by search engines
+description: "GEEK or NERD"      # used by search engines
 avatar: assets/img/pexels/phil.JPG                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text:                                            # Change Blog header text
-header_feature_image: assets/img/pexels/phil.JPG
+header_text: Growing up, we were all insecure nerds in our own way.
+header_feature_image: assets/img/pexels/army.PNG
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a>
 
