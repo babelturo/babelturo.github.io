@@ -18,8 +18,8 @@ theme: jekyll-theme-so-simple
 skin: "/assets/css/skins/default.css"
 locale: ja_JP
 title: "Growing up, we were all insecure nerds in our own way."
-description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
+description: ""
+baseurl: "/" the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://babelturo.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
