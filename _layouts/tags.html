@@ -20,6 +20,13 @@ layout: page
 {% assign rawtags = rawtags | append: portfolio_tags %}
 {% endfor %}
 
+<!-- cycles through study collection to get tags -->
+{% assign study =  site.study | map: 'tags' | join: ','  | split: ',' | uniq %}
+{% for tag in study %}
+{% assign study_tags = tag | join: '|' | append: '|' %}
+{% assign rawtags = rawtags | append: study_tags %}
+{% endfor %}
+
 <!-- cycles through pages to get tags -->
 {% for page in site.pages %}
 {% if page.tags.size > 0 %}
@@ -81,6 +88,22 @@ layout: page
                 <h5 class="tag-title">
                     <a href="{{ note.url | relative_url }}">
                         <i class="fa fa-file-o" aria-hidden="true"></i>
+                        {{ note.title }}
+                    </a>
+                
+                    <div class="meta">
+                        {{ note.date | date: "%B %-d, %Y" }}
+                    </div>
+                </h5>
+                {% endif %} 
+            {% endfor %}
+
+            <!-- Study -->
+            {% for note in site.study %} 
+                {% if note.tags contains tag %}
+                <h5 class="tag-title">
+                    <a href="{{ note.url | relative_url }}">
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i>
                         {{ note.title }}
                     </a>
                 
