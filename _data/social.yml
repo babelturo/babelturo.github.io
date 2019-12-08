@@ -7,7 +7,7 @@ dribbble:
 facebook:
 flickr:
 gitlab:
-github: "sylhare"
+github:
 instagram:
 keybase:
 linkedin:         # Full URL
@@ -30,7 +30,7 @@ share:
   tumblr:
   pinterest:
   pocket:
-  reddit: true
+  reddit:
   linkedin:
   wordpress:
   email: true
