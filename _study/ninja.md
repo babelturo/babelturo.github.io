@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modern Family
-img: "assets/img/pexels/phil.jpg"
+img: "assets/img/pexels/phil.JPG"
 date: April, 08 2014
 tags: [Lorem]
 ---
