@@ -1,7 +1,7 @@
 ---
 layout: post
 title: テスト
-tags: [Markdown, foreign]
+tags: [Markdown]
 color: brown
 author: Seo
 excerpt_separator: <!--more-->

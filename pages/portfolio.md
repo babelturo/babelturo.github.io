@@ -1,9 +1,10 @@
---- 
+---
 layout: page
-title : Portfolio 
-permalink: /portfolio/
-subtitle: "Projects I am working on" 
+title : Archive
+permalink: /Archive/
+subtitle: "I have a bad memory" 
 feature-img: "assets/img/pexels/computer.jpeg"
+
 tags: [Archive]
 ---
 
