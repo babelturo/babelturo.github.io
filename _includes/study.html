@@ -1,0 +1,16 @@
+<!-- Study Grid Section -->
+
+<div class="study-grid">
+    {% for item in site.study %}
+    <div class="study-cell">
+        <a href="{{ item.url | relative_url }}" class="study-link" data-keyboard="true">
+            <div class="caption" title="{{ item.title }}">
+                <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+            </div>
+            <img src="{{ item.img | relative_url }}" class="" alt="">
+        </a>
+    </div>
+    {% endfor %}
+</div>

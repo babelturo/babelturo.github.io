@@ -1,7 +1,7 @@
 ---
 layout: post
 title: テスト
-tags: [Markdown]
+tags: [Markdown, foreign]
 color: brown
 author: Seo
 excerpt_separator: <!--more-->
@@ -41,4 +41,5 @@ color: rgb(165,42,42)
 
 The background used is `lineart.png` from [xukimseven](https://github.com/xukimseven) you can edit it in the config file. 
 If you want another one, put it in `/assets/img` as well. 
+
 > ⚠️ It's a bit hacking the css in the `post.html`
