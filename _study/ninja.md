@@ -3,7 +3,7 @@ layout: post
 title: Gotcha!
 img: "assets/img/study/Gotcha.JPG"
 date: September, 16 2018
-tags: [TRANSLATION, 한국어, ENGLISH, 日本語, TMI]
+tags: [TRANSLATION, KOREAN, ENGLISH, JAPANESE, TMI]
 ---
 
 ![image]({{ page.img | relative_url }})
