@@ -1,8 +1,8 @@
 ---
 layout: post
 title: jekyll에 관한 메모
-feature-img: "assets/img/portfolio/Jekyll-memo.JPG"
-img: "assets/img/portfolio/Jekyll-memo.JPG"
+feature-img: "assets/img/portfolio/Jekyll-memo.png"
+img: "assets/img/portfolio/Jekyll-memo.png"
 date: 15 August 2019
 tags: [Jekyll]
 ---
