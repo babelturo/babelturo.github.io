@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Circus
-img: "assets/img/portfolio/circus.png"
-date: September 2014
-tags: [Ipsum]
+title: 과학 기술 발전과 이론 언어학 : 언어 변화 연구의 현황과 과제
+img: "assets/img/portfolio/treedia.jfif"
+date: 2020-03-09
+tags: [말뭉치, 코퍼스, コーパス]
 ---
 
-![image]({{ page.img | relative_url }})
+![image]({{ treedia..jfif | relative_url }})
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem <a>quia voluptas sit aspernatur</a> aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius <a>modi tempora incidunt</a> ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+본 글은 다음을 참고로 하였음.
+
+> 小川芳樹（2019）科学・技術の進歩と理論言語学―言語変化研究の現状と課題―『コーパスからわかる言語変化・変異と言語理論2』1-36. 東京：開拓社.
 
