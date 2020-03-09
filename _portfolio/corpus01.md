@@ -2,7 +2,7 @@
 layout: post
 title: 과학 기술 발전과 이론 언어학 : 언어 변화 연구의 현황과 과제
 img: "assets/img/portfolio/treedia.PNG"
-date: 2020-03-09
+date: January, 09 2020
 tags: [말뭉치, 코퍼스, コーパス]
 ---
 
