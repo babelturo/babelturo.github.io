@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 과학 기술 발전과 이론 언어학 : 언어 변화 연구의 현황과 과제
-feature-img: "assets/img/portfolio/Jekyll-memo.png"
-img: "assets/img/portfolio/Jekyll-memo.png"
+title: 과학 기술 발전과 이론 언어학
+feature-img: "assets/img/portfolio/treedia.PNG"
+img: "assets/img/portfolio/treedia.PNG"
 date: 15 March 2019
 tags: [말뭉치, 코퍼스, コーパス]
 ---
