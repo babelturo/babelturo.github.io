@@ -1,7 +1,6 @@
 ---
 layout: post
 title: jekyll에 관한 메모
-feature-img: "assets/img/portfolio/Jekyll-memo.png"
 img: "assets/img/portfolio/Jekyll-memo.png"
 date: 15 August 2019
 tags: [Jekyll]
@@ -15,8 +14,12 @@ Windows10에서 Ruby 설치 후 Jekyll로 블로그 구축. 아래 사이트 참
 
 # Ruby
 
-- jekyll serve
+명령창(command prompt)에서 블로그 페이지로 이동한 다음 아래와 같이 입력하면...
 
+```powershell
+jekyll serve
+```
 
+화면에 표시되는 IP주소를 웹브라우저에 입력하여 블로그를 미리 확인할 수 있다. 수정할 때마다 깃에 업로드를 하는 번거로움을 줄여준다.
 
 # GitHub

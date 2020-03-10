@@ -3,7 +3,6 @@ layout: post
 title: Modern Family
 img: "assets/img/pexels/i15764630766.jpg"
 date: April, 08 2014
-tags: [Lorem]
 ---
 
 ![image]({{ page.img | relative_url }})
